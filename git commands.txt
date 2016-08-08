@@ -1,0 +1,23 @@
+
+git init
+git add README
+
+git add (all other files)
+git commit -m 'reinitialized files'
+git push origin master --force  # <- caution, --force can delete others work.
+
+
+git config --global user.email johndoe@example.com
+
+
+echo "# locateyourfriend" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/MugeshM/locateyourfriend.git
+git push -u origin master
+
+To display a graph
+git log --oneline --graph --decorate --all
+
+
